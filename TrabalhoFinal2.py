@@ -139,5 +139,8 @@ for label in labels:
 btn_calcular = tk.Button(root, text="Calcular", command=calcular_irrigacao)
 btn_calcular.pack()
 
+# Set geometry(widthxheight)
+root.geometry('500x750')
+
 # Iniciar a interface
 root.mainloop()
